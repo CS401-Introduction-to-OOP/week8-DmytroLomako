@@ -17,6 +17,6 @@ public class Parcel : DeliveryItem
     public override void PrintInfo()
     {
         base.PrintInfo();
-        Console.WriteLine($"Dimensions : {Dimensions}");
+        Console.WriteLine($"Dimensions: {Dimensions}");
     }
 }
